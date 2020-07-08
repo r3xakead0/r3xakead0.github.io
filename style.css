@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  margin: 40px;
+}
+p {
+    font-family: 'Karla', sans-serif;
+}
+a {text-decoration: none; }
+.desc-elem {
+  display: inline;
+  width: 200px;
+  height: 50px;
+}
+#desc {
+  display: inline;
+  margin: 40px;
+}
+
+#desc-left {
+  float: left;
+  display: inline;
+}
+
+#desc-right {
+  float: right;
+  display: inline;
+}
+
+#desc p {
+}
+
+.surprise {
+  opacity: 0;
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s
+}
+.surprise:hover{
+  opacity: 100;
+}
+
+.platform-holder {
+  width: 50px;
+}
+#face {
+  position: relative;
+  top: 50px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  background: url('./images/me.jpg') no-repeat center center;
+  background-size: cover;
+  transition: width 0.5s;
+  -webkit-transition: width 0.5s
+}
+
+#face:hover {
+  width: 160px;
+}
+
+#top-sheet {
+    width: 450px;
+    display: inline-block;
+}
+
+#platforms {
+  margin: 40px;
+  display: -webkit-inline-box;
+}
+#platforms i {
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+#platforms i:hover {
+  font-size: 25px;
+}
+
+#platforms .fa-github:hover {
+  color: purple;
+}
+
+#platforms .fa-youtube-play:hover {
+  color: red;
+}
+
+#platforms .fa-linkedin-square:hover {
+  color: blue;
+}
+
+#platforms .fa-instagram:hover {
+  color: pink;
+}
+
+#background-anim {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:-1;
+}
